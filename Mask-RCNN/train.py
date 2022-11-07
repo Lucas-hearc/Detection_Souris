@@ -106,46 +106,52 @@ class CustomDataset(utils.Dataset):
         #   'size': 100202
         # }
         # We mostly care about the x and y coordinates of each region
-        annotations1 = json.load(open(os.path.join(dataset_dir, "via_reg_data.json")))
-        # print(annotations1)
-        annotations = list(annotations1.values())  # don't need the dict keys
+        json_file_path = os.path.join(dataset_dir, "via_reg_data.json")
+       
+        with open(json_file_path, 'r') as j:
+            
+            annotations = json.loads(j.read())
+            # print(annotations1)
+            annotations = list(annotations.values())  # don't need the dict keys
 
-        # The VIA tool saves images in the JSON even if they don't have any
-        # annotations. Skip unannotated images.
-        annotations = [a for a in annotations if a['regions']]
-        
-        # Add images
-        for a in annotations:
-            # print(a)
-            # Get the x, y coordinaets of points of the polygons that make up
-            # the outline of each object instance. There are stores in the
-            # shape_attributes (see json format above)
-            polygons = [r['shape_attributes'] for r in a['regions']] 
-            objects = [s['region_attributes'] for s in a['regions']]
-            num_ids = []
-            for n in objects:
-                try:
-                    if n['object'] == 'bottle':
-                        num_ids.append(1)
-                    elif n['object'] == 'glass':
-                        num_ids.append(2)
-                    elif n['object'] == 'paper':
-                        num_ids.append(3)
-                    elif n['object'] == 'trash':
-                        num_ids.append(4)
-                except:
-                    pass    
-            image_path = os.path.join(dataset_dir, a['filename'])
-            image = skimage.io.imread(image_path)
-            height, width = image.shape[:2]
+            # The VIA tool saves images in the JSON even if they don't have any
+            # annotations. Skip unannotated images.
+            annotations = [a for a in annotations if a['regions']]
+            
+            # Add images
+            for a in annotations:
+                # print(a)
+                # Get the x, y coordinaets of points of the polygons that make up
+                # the outline of each object instance. There are stores in the
+                # shape_attributes (see json format above)
+                polygons = [r['shape_attributes'] for r in a['regions']] 
+                objects = [s['region_attributes'] for s in a['regions']]
+                num_ids = []
+                for n in objects:
+                    try:
+                        if n['object'] == 'bottle':
+                            num_ids.append(1)
+                        elif n['object'] == 'glass':
+                            num_ids.append(2)
+                        elif n['object'] == 'paper':
+                            num_ids.append(3)
+                        elif n['object'] == 'trash':
+                            num_ids.append(4)
+                    except:
+                        pass
+                image_path = os.path.join(dataset_dir, a['filename'])
+                image = skimage.io.imread(image_path)
+                height, width = image.shape[:2]
 
             self.add_image(
-                "object",  ## for a single class just add the name here
-                image_id=a['filename'],  # use file name as a unique image id
+                'object',
+                image_id=a['filename'],
                 path=image_path,
-                width=width, height=height,
+                width=width,
+                height=height,
                 polygons=polygons,
-                num_ids=num_ids)
+                num_ids=num_ids,
+                )
 
     def load_mask(self, image_id):
         """Generate instance masks for an image.
