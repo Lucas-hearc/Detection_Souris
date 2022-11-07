@@ -106,9 +106,9 @@ class CustomDataset(utils.Dataset):
         #   'size': 100202
         # }
         # We mostly care about the x and y coordinates of each region
-        annotations1 = json.load(open(os.path.join(dataset_dir, "via_region_data.json")))
+        annotations = json.load(open(os.path.join(dataset_dir, "via_reg_data.json")))
         # print(annotations1)
-        annotations = list(annotations1.values())  # don't need the dict keys
+        annotations = list(annotations.values())  # don't need the dict keys
 
         # The VIA tool saves images in the JSON even if they don't have any
         # annotations. Skip unannotated images.
@@ -121,28 +121,33 @@ class CustomDataset(utils.Dataset):
             # the outline of each object instance. There are stores in the
             # shape_attributes (see json format above)
             polygons = [r['shape_attributes'] for r in a['regions']] 
-            objects = [s['region_attributes']['name'] for s in a['regions']]
-            print("objects:",objects)
-            name_dict = {"bottle": 1,"glass": 2,"paper": 3,"trash": 4}
-            # key = tuple(name_dict)
-            num_ids = [name_dict[a] for a in objects]
-     
-            # num_ids = [int(n['Event']) for n in objects]
-            # load_mask() needs the image size to convert polygons to masks.
-            # Unfortunately, VIA doesn't include it in JSON, so we must read
-            # the image. This is only managable since the dataset is tiny.
-            print("numids",num_ids)
+            objects = [s['region_attributes'] for s in a['regions']]
+            num_ids = []
+            for n in objects:
+                try:
+                    if n['object'] == 'bottle':
+                        num_ids.append(1)
+                    elif n['object'] == 'glass':
+                        num_ids.append(2)
+                    elif n['object'] == 'paper':
+                        num_ids.append(3)
+                    elif n['object'] == 'trash':
+                        num_ids.append(4)
+                except:
+                    pass
             image_path = os.path.join(dataset_dir, a['filename'])
             image = skimage.io.imread(image_path)
             height, width = image.shape[:2]
 
             self.add_image(
-                "object",  ## for a single class just add the name here
-                image_id=a['filename'],  # use file name as a unique image id
+                'object',
+                image_id=a['filename'],
                 path=image_path,
-                width=width, height=height,
+                width=width,
+                height=height,
                 polygons=polygons,
-                num_ids=num_ids)
+                num_ids=num_ids,
+                )
 
     def load_mask(self, image_id):
         """Generate instance masks for an image.
@@ -166,7 +171,7 @@ class CustomDataset(utils.Dataset):
                         dtype=np.uint8)
         for i, p in enumerate(info["polygons"]):
             # Get indexes of pixels inside the polygon and set them to 1
-            rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+        	rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x']) 
             mask[rr, cc, i] = 1
 
         # Return mask, and array of class IDs of each instance. Since we have
