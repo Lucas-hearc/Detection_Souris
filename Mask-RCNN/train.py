@@ -108,26 +108,24 @@ class CustomDataset(utils.Dataset):
         # We mostly care about the x and y coordinates of each region
         json_file_path = os.path.join(dataset_dir, "via_reg_data.json")
        
-        with open(json_file_path, 'r') as j:
-            
-            annotations = json.loads(j.read())
-            # print(annotations1)
-            annotations = list(annotations.values())  # don't need the dict keys
+        annotations1 = json.load(open(os.path.join(dataset_dir, "via_region_data.json")))
+        # print(annotations1)
+        annotations = list(annotations1.values())  # don't need the dict keys
 
-            # The VIA tool saves images in the JSON even if they don't have any
-            # annotations. Skip unannotated images.
-            annotations = [a for a in annotations if a['regions']]
+        # The VIA tool saves images in the JSON even if they don't have any
+        # annotations. Skip unannotated images.
+        annotations = [a for a in annotations if a['regions']]
             
-            # Add images
-            for a in annotations:
-                # print(a)
-                # Get the x, y coordinaets of points of the polygons that make up
-                # the outline of each object instance. There are stores in the
-                # shape_attributes (see json format above)
-                polygons = [r['shape_attributes'] for r in a['regions']] 
-                objects = [s['region_attributes'] for s in a['regions']]
-                num_ids = []
-                for n in objects:
+        # Add images
+        for a in annotations:
+               # print(a)
+               # Get the x, y coordinaets of points of the polygons that make up
+               # the outline of each object instance. There are stores in the
+               # shape_attributes (see json format above)
+               polygons = [r['shape_attributes'] for r in a['regions']] 
+               objects = [s['region_attributes'] for s in a['regions']]
+               num_ids = []
+               for n in objects:
                     try:
                         if n['object'] == 'bottle':
                             num_ids.append(1)
@@ -139,11 +137,11 @@ class CustomDataset(utils.Dataset):
                             num_ids.append(4)
                     except:
                         pass
-                image_path = os.path.join(dataset_dir, a['filename'])
-                image = skimage.io.imread(image_path)
-                height, width = image.shape[:2]
+         image_path = os.path.join(dataset_dir, a['filename'])
+         image = skimage.io.imread(image_path)
+         height, width = image.shape[:2]
 
-            self.add_image(
+         self.add_image(
                 'object',
                 image_id=a['filename'],
                 path=image_path,
