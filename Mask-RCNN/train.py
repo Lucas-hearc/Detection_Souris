@@ -106,9 +106,9 @@ class CustomDataset(utils.Dataset):
         #   'size': 100202
         # }
         # We mostly care about the x and y coordinates of each region
-        annotations = json.load(open(os.path.join(dataset_dir, "via_reg_data.json")))
+        annotations1 = json.load(open(os.path.join(dataset_dir, "via_reg_data.json")))
         # print(annotations1)
-        annotations = list(annotations.values())  # don't need the dict keys
+        annotations = list(annotations1.values())  # don't need the dict keys
 
         # The VIA tool saves images in the JSON even if they don't have any
         # annotations. Skip unannotated images.
@@ -134,20 +134,18 @@ class CustomDataset(utils.Dataset):
                     elif n['object'] == 'trash':
                         num_ids.append(4)
                 except:
-                    pass
+                    pass    
             image_path = os.path.join(dataset_dir, a['filename'])
             image = skimage.io.imread(image_path)
             height, width = image.shape[:2]
 
             self.add_image(
-                'object',
-                image_id=a['filename'],
+                "object",  ## for a single class just add the name here
+                image_id=a['filename'],  # use file name as a unique image id
                 path=image_path,
-                width=width,
-                height=height,
+                width=width, height=height,
                 polygons=polygons,
-                num_ids=num_ids,
-                )
+                num_ids=num_ids)
 
     def load_mask(self, image_id):
         """Generate instance masks for an image.
@@ -171,7 +169,7 @@ class CustomDataset(utils.Dataset):
                         dtype=np.uint8)
         for i, p in enumerate(info["polygons"]):
             # Get indexes of pixels inside the polygon and set them to 1
-        	rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x']) 
+            rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
             mask[rr, cc, i] = 1
 
         # Return mask, and array of class IDs of each instance. Since we have
