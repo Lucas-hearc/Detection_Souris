@@ -137,19 +137,19 @@ class CustomDataset(utils.Dataset):
                             num_ids.append(4)
                     except:
                         pass
-         image_path = os.path.join(dataset_dir, a['filename'])
-         image = skimage.io.imread(image_path)
-         height, width = image.shape[:2]
+        image_path = os.path.join(dataset_dir, a['filename'])
+        image = skimage.io.imread(image_path)
+        height, width = image.shape[:2]
 
-         self.add_image(
-                'object',
-                image_id=a['filename'],
-                path=image_path,
-                width=width,
-                height=height,
-                polygons=polygons,
-                num_ids=num_ids,
-                )
+        self.add_image(
+              'object',
+              image_id=a['filename'],
+              path=image_path,
+              width=width,
+              height=height,
+              polygons=polygons,
+              num_ids=num_ids,
+              )
 
     def load_mask(self, image_id):
         """Generate instance masks for an image.
