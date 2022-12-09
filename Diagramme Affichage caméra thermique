@@ -1,1 +1,158 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T08:01:57.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42" version="20.6.2" etag="fterSFE1bw_gi_tOnGgf" type="github"><diagram id="EaUXZbHx74lVDu-1wR7j">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-09T08:40:07.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42" version="20.6.2" etag="c4z12iiFb2DH-KL98TfF" type="github">
+  <diagram id="gb53CBONohnzhEzS04-G" name="Page-1">
+    <mxGraphModel dx="1775" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="fBm-DSgMOxrgb1jz9e24-1" target="fBm-DSgMOxrgb1jz9e24-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-4" value="Start Background&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fBm-DSgMOxrgb1jz9e24-3">
+          <mxGeometry x="0.1455" relative="1" as="geometry">
+            <mxPoint x="-26" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fBm-DSgMOxrgb1jz9e24-1" target="fBm-DSgMOxrgb1jz9e24-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-1" value="Démarrage PC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-2" value="PIX Connect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fBm-DSgMOxrgb1jz9e24-5" target="fBm-DSgMOxrgb1jz9e24-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-5" value="Ouverture Photo Acquisition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fBm-DSgMOxrgb1jz9e24-6" target="fBm-DSgMOxrgb1jz9e24-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-6" value="Ouverture de l&#39;onglet Caméra Thermique" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fBm-DSgMOxrgb1jz9e24-9" target="fBm-DSgMOxrgb1jz9e24-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-9" value="Création de l&#39;objet CameraOptris issu de la classe abstraite CameraThermique" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-11" value="Initialisation de l&#39;IA via powershell (en arrière plan)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-15" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="500" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-16" value="Initialisation du retour image sur PA de la caméra Optris" style="whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-15">
+          <mxGeometry x="40" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-17" value="Set la Camera en niveau de Gris" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-15">
+          <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-18" value="Déclenche Timer 1 et 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-15">
+          <mxGeometry x="40" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-23" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="210" width="600" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fBm-DSgMOxrgb1jz9e24-23" source="fBm-DSgMOxrgb1jz9e24-26" target="fBm-DSgMOxrgb1jz9e24-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-26" value="Se prépare à accueillir une nouvelle image thermique" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-23">
+          <mxGeometry x="140" y="30" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fBm-DSgMOxrgb1jz9e24-23" source="fBm-DSgMOxrgb1jz9e24-28" target="fBm-DSgMOxrgb1jz9e24-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-64" value="OUI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fBm-DSgMOxrgb1jz9e24-63">
+          <mxGeometry x="-0.6559" relative="1" as="geometry">
+            <mxPoint x="10" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-28" value="Mode Polling" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-23">
+          <mxGeometry x="260" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fBm-DSgMOxrgb1jz9e24-23" source="fBm-DSgMOxrgb1jz9e24-30" target="fBm-DSgMOxrgb1jz9e24-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-30" value="I = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-23">
+          <mxGeometry x="275" y="80" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-47" value="" style="swimlane;startSize=0;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-23">
+          <mxGeometry x="40" y="230" width="520" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.509;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fBm-DSgMOxrgb1jz9e24-47" source="fBm-DSgMOxrgb1jz9e24-49" target="fBm-DSgMOxrgb1jz9e24-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-49" value="Récupère l&#39;état de la connexion entre PIX Connect et PA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-47">
+          <mxGeometry x="180" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-48" value="Initialise le mode Polling" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-47">
+          <mxGeometry x="370" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.442;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fBm-DSgMOxrgb1jz9e24-47" source="fBm-DSgMOxrgb1jz9e24-50" target="fBm-DSgMOxrgb1jz9e24-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-56" value="Réussite" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fBm-DSgMOxrgb1jz9e24-55">
+          <mxGeometry x="0.0426" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.359;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fBm-DSgMOxrgb1jz9e24-47" source="fBm-DSgMOxrgb1jz9e24-50" target="fBm-DSgMOxrgb1jz9e24-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-67" value="Echec" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fBm-DSgMOxrgb1jz9e24-66">
+          <mxGeometry x="-0.6032" relative="1" as="geometry">
+            <mxPoint x="-16" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-50" value="Etat connexion" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-47">
+          <mxGeometry x="220" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-58" value="" style="swimlane;startSize=0;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-47">
+          <mxGeometry x="40" y="200" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-59" value="Evènement arrêt serveur" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-58">
+          <mxGeometry x="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fBm-DSgMOxrgb1jz9e24-58" source="fBm-DSgMOxrgb1jz9e24-61" target="fBm-DSgMOxrgb1jz9e24-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-61" value="Libère la connexion entre PA et PIX Connect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-58">
+          <mxGeometry x="20" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-62" value="Affiche écran noir" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-58">
+          <mxGeometry x="20" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-69" value="" style="swimlane;startSize=0;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-47">
+          <mxGeometry x="280" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-70" value="Evènement Réception Image" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-69">
+          <mxGeometry x="20" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-71" value="Réception les dimension de l&#39;image thermique issue de PIX Connect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-69">
+          <mxGeometry x="40" y="40" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-72" value="Reçoit le Buffer de données" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-69">
+          <mxGeometry x="40" y="120" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-25" value="TIMER 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-23">
+          <mxGeometry x="530" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-31" value="i = 5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-23">
+          <mxGeometry x="240" y="735" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fBm-DSgMOxrgb1jz9e24-23" source="fBm-DSgMOxrgb1jz9e24-44" target="fBm-DSgMOxrgb1jz9e24-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBm-DSgMOxrgb1jz9e24-44" value="I + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fBm-DSgMOxrgb1jz9e24-23">
+          <mxGeometry x="260" y="670" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
