@@ -1,1 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T10:45:12.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42" version="20.6.2" etag="66gJBhCCsOT2xHiL8D8P" type="github"><diagram id="lEygBEwX1u-L6TxgJRkY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-12T11:28:11.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42" version="20.6.2" etag="Zm0rynIRXUHrl7_a3cVD" type="github">
+  <diagram id="6s90tICqrYO-cVQPTX2q" name="Page-1">
+    <mxGraphModel dx="1100" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;strokeColor=#A680B8;fillColor=#A680B8;" edge="1" parent="1" source="m_Qbe6HABx3O1-Kwpjb2-4" target="m_Qbe6HABx3O1-Kwpjb2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-2" value="Start Background&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#A680B8;" vertex="1" connectable="0" parent="m_Qbe6HABx3O1-Kwpjb2-1">
+          <mxGeometry x="0.1455" relative="1" as="geometry">
+            <mxPoint x="-26" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m_Qbe6HABx3O1-Kwpjb2-4" target="m_Qbe6HABx3O1-Kwpjb2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-4" value="Démarrage PC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-5" value="PIX Connect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m_Qbe6HABx3O1-Kwpjb2-7" target="m_Qbe6HABx3O1-Kwpjb2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-7" value="Ouverture Photo Acquisition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m_Qbe6HABx3O1-Kwpjb2-9" target="m_Qbe6HABx3O1-Kwpjb2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-9" value="Ouverture de l&#39;onglet Caméra Thermique" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m_Qbe6HABx3O1-Kwpjb2-11" target="m_Qbe6HABx3O1-Kwpjb2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-11" value="Création de l&#39;objet CameraOptris issu de la classe abstraite CameraThermique" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m_Qbe6HABx3O1-Kwpjb2-13" target="m_Qbe6HABx3O1-Kwpjb2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-13" value="Initialisation de l&#39;IA via powershell (en arrière plan)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-14" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="m_Qbe6HABx3O1-Kwpjb2-14" source="m_Qbe6HABx3O1-Kwpjb2-16" target="m_Qbe6HABx3O1-Kwpjb2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-16" value="Initialisation du retour image sur PA de la caméra Optris" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="m_Qbe6HABx3O1-Kwpjb2-14">
+          <mxGeometry x="60" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="m_Qbe6HABx3O1-Kwpjb2-14" source="m_Qbe6HABx3O1-Kwpjb2-18" target="m_Qbe6HABx3O1-Kwpjb2-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-18" value="Set la Camera en niveau de Gris" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="m_Qbe6HABx3O1-Kwpjb2-14">
+          <mxGeometry x="60" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-19" value="Déclenche Timer 1 et 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="m_Qbe6HABx3O1-Kwpjb2-14">
+          <mxGeometry x="60" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-20" value="" style="swimlane;startSize=0;fillColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="240" y="740" width="320" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="m_Qbe6HABx3O1-Kwpjb2-20" source="m_Qbe6HABx3O1-Kwpjb2-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="120" />
+              <mxPoint x="40" y="170" />
+              <mxPoint x="160" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-22" value="NON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m_Qbe6HABx3O1-Kwpjb2-21">
+          <mxGeometry x="-0.8022" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-23" value="Caméra connectée &lt;br&gt;et initialisée" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="m_Qbe6HABx3O1-Kwpjb2-20">
+          <mxGeometry x="80" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-24" value="Timer 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="m_Qbe6HABx3O1-Kwpjb2-20">
+          <mxGeometry x="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="m_Qbe6HABx3O1-Kwpjb2-20" target="m_Qbe6HABx3O1-Kwpjb2-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-26" value="Initialise la connexion entre PIX Connect et PA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="m_Qbe6HABx3O1-Kwpjb2-20">
+          <mxGeometry x="20" y="200" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;fillColor=#A680B8;" edge="1" parent="m_Qbe6HABx3O1-Kwpjb2-20" source="m_Qbe6HABx3O1-Kwpjb2-28" target="m_Qbe6HABx3O1-Kwpjb2-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-28" value="Démarre la connexion&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="m_Qbe6HABx3O1-Kwpjb2-20">
+          <mxGeometry x="80" y="250" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;fillColor=#A680B8;" edge="1" parent="m_Qbe6HABx3O1-Kwpjb2-20" source="m_Qbe6HABx3O1-Kwpjb2-30" target="m_Qbe6HABx3O1-Kwpjb2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-30" value="&lt;font color=&quot;#000000&quot;&gt;Debut Timer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="m_Qbe6HABx3O1-Kwpjb2-20">
+          <mxGeometry x="100" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m_Qbe6HABx3O1-Kwpjb2-31" value="Fin Timer" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#EA6B66;" vertex="1" parent="m_Qbe6HABx3O1-Kwpjb2-20">
+          <mxGeometry x="100" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
